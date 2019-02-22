@@ -7,3 +7,7 @@ To keep the model very simple and easy to train, a number of measures were taken
 2. Further, every word which only occured in only a single description was removed along with the description and the image that it occured in.
 3. This filtering reduced the number of images to 6345 having one description each.
 4. Further, the vocabulary was also greatly reduced which has adversely affected the accuracy of the model. 
+
+IMPLEMENTATIONS:
+The notebooks should be executed in the order of "VGG16 Preparation", "Preparing Text Data", "FILTER", "EXTRACTOR", "TRAINER", "PREDICTOR".
+
