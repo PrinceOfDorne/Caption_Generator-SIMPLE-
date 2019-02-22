@@ -3,7 +3,7 @@ This is a very simple and less accurate version of a caption generator trained o
 
 FUNDAMENTALS:
 To keep the model very simple and easy to train, a number of measures were taken-
-=> Only one description(#1 in Flickr8k) per image was used.
-=> Further, every word which only occured in only a single description was removed along with the description and the image that it occured in.
-=> This filtering reduced the number of images to 6345 having one description each.
-=> Further, the vocabulary was also greatly reduced which has adversely affected the accuracy of the model. 
+1. Only one description(#1 in Flickr8k) per image was used.
+2. Further, every word which only occured in only a single description was removed along with the description and the image that it occured in.
+3. This filtering reduced the number of images to 6345 having one description each.
+4. Further, the vocabulary was also greatly reduced which has adversely affected the accuracy of the model. 
